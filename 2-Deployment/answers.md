@@ -56,7 +56,22 @@ Run
 ```shell
 kubectl create -f blabla.yaml
 ```
-4. Create a simple deployment of nginx with 2 replicas called deployment1
+4. Observe the IP address of pod2, then delete and recreate pod2 and observe the IP address.
+
+**Answer**:
+___
+Run
+```shell
+kubectl get pods -o wide
+```
+Run
+```shell
+kubectl delete pods/pod2
+```
+Create the pod again same as above
+
+
+5. Create a simple deployment of nginx with 2 replicas called deployment1
 
 **Answer**:
 ___
