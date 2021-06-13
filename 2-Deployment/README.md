@@ -3,3 +3,4 @@
 3. Add a `redis` image into `pod2`.
 4. Observe the IP address of `pod2`, then delete and recreate `pod2` and observe the IP address.
 5. Create a simple deployment of `nginx` with 2 replicas called `deployment1`.
+6. Delete one of the pods from `deployment1`, wait a few seconds and see the list of pods again
