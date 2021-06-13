@@ -94,3 +94,17 @@ spec:
       - image: nginx
         name: nginx
 ```
+
+6. Delete one of the pods from deployment1, wait a few seconds and see the list of pods again
+
+**Answer**:
+___
+Run
+```shell
+kubectl get pods
+kubectl delete pods/<name of the pod>
+```
+Wait a few seconds and then run
+```shell
+kubectl get pods
+```
