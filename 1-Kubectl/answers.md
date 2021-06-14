@@ -52,6 +52,6 @@ kubectl get pods/pod2 -o yaml
 **Answer**:
 ___
 ```bash
-kubectl get pods --namespace kubernetes
+kubectl get pods --namespace kube-system
 ```
 7 pods.
