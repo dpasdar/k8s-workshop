@@ -31,6 +31,11 @@ spec:
     name: nginx
 ```
 
+Alternative:
+```shell
+kubectl run pod2 --image=nginx
+```
+
 3. Add a redis image into pod2
 
 **Answer**:
