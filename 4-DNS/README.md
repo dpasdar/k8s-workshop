@@ -1,6 +1,6 @@
 To observe things from inside the cluster the following temporary container/pod configuration can be used.
 ```shell
-kubectl run -i --tty --rm debug --image=busybox --restart=Never -- sh
+kubectl run -i --tty --rm debug --image=busybox:1.28 --restart=Never -- sh
 ```
 
 
