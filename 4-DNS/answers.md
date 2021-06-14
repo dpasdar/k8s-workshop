@@ -5,7 +5,7 @@
 ___   
 ```bash
 kubectl create deployment deployment1 --image=nginx
-kubectl expose deployment/deployment1 --port=80
+kubectl expose deployment/deployment1 --port=80 --name=myservice
 ```
 And then check nslookup and the port 80 inside busybox:
 ```shell
